@@ -4,3 +4,5 @@ export LSCOLORS="gxfxcxdxbxegedabagacad"
 alias homesick="$HOME/.homesick/repos/homeshick/home/.homeshick"
 alias ls="ls -G"
 
+alias clj="rlwrap clj"
+

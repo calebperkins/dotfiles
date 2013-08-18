@@ -159,3 +159,5 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 "------------------------------------------------------------
 set background=dark
+execute pathogen#infect()
+
