@@ -159,5 +159,16 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 "------------------------------------------------------------
 set background=dark
-execute pathogen#infect()
 
+" Automatically leave insert mode after 'updatetime' (4s by default).
+au CursorHoldI * stopinsert
+
+" Vundle stuff
+filetype off " required!
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+Bundle "myusuf3/numbers.vim"
+filetype plugin indent on " required!
