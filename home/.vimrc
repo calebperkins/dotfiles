@@ -163,6 +163,11 @@ set background=dark
 " Automatically leave insert mode after 'updatetime' (4s by default).
 au CursorHoldI * stopinsert
 
+set encoding=utf8
+
+" Keep cursor away from edges of screen
+set so=14
+
 " Vundle stuff
 filetype off " required!
 set rtp+=~/.vim/bundle/vundle/
