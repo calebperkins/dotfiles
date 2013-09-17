@@ -8,4 +8,4 @@ alias clj="lein repl"
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias stt="st ."
 
-source .zsh/git_prompt.zsh
+source $HOME/.zsh/git_prompt.zsh
