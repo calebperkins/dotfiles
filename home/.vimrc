@@ -178,4 +178,5 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle "myusuf3/numbers.vim"
 Bundle "scrooloose/nerdtree"
+Bundle "kien/ctrlp.vim"
 filetype plugin indent on " required!
