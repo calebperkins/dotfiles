@@ -168,6 +168,8 @@ set encoding=utf8
 " Keep cursor away from edges of screen
 set so=14
 
+set wildignore=*.class
+
 " Vundle stuff
 filetype off " required!
 set rtp+=~/.vim/bundle/vundle/
