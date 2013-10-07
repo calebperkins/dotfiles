@@ -161,7 +161,7 @@ nnoremap <C-L> :nohl<CR><C-L>
 set background=dark
 
 " Automatically leave insert mode after 'updatetime' (4s by default).
-au CursorHoldI * stopinsert
+"au CursorHoldI * stopinsert
 
 set encoding=utf8
 
@@ -169,6 +169,9 @@ set encoding=utf8
 set so=14
 
 set wildignore=*.class
+
+set number
+set relativenumber
 
 " Vundle stuff
 filetype off " required!
@@ -178,7 +181,6 @@ call vundle#rc()
 "------------------------------------------------------------
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
-Bundle "myusuf3/numbers.vim"
 Bundle "scrooloose/nerdtree"
 Bundle "kien/ctrlp.vim"
 filetype plugin indent on " required!
