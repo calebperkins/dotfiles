@@ -86,7 +86,7 @@ set mouse=a
 
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
-set cmdheight=2
+"set cmdheight=2
 
 " Display line numbers on the left
 set number
@@ -141,5 +141,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle "scrooloose/nerdtree"
 Bundle "kien/ctrlp.vim"
+Bundle 'itchyny/lightline.vim'
 filetype plugin indent on " required!
 
