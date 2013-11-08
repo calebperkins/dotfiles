@@ -21,3 +21,4 @@ setopt    sharehistory      #Share history across terminals
 setopt    incappendhistory  #Immediately append to the history file, not just when a term is killed
 
 source $HOME/.zsh/git_prompt.zsh
+source $HOME/.homesick/repos/homeshick/homeshick.sh
