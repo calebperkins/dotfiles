@@ -1,0 +1,10 @@
+[push]
+  default = simple
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  ca = commit --amend
+  aa = add --all
+[include]
+  path = .gitconfig.local
