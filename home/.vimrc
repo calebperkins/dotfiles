@@ -131,16 +131,4 @@ set wildignore=*.class
 set number
 set relativenumber
 
-" Vundle stuff
-filetype off " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-"------------------------------------------------------------
-" let Vundle manage Vundle
-Bundle 'gmarik/vundle'
-Bundle "scrooloose/nerdtree"
-Bundle "kien/ctrlp.vim"
-Bundle 'itchyny/lightline.vim'
-filetype plugin indent on " required!
-
+source ~/.vim/bundles.vim
