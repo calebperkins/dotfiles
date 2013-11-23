@@ -128,7 +128,8 @@ set so=14
 
 set wildignore=*.class
 
-set number
 set relativenumber
+
+set omnifunc=syntaxcomplete#Complete
 
 source ~/.vim/bundles.vim
