@@ -2,7 +2,7 @@ autoload -U colors && colors
 
 # the prompt
 export PS1="%{$fg[red]%}» %{$fg[cyan]%}%1~ %{$reset_color%}"
-export LSCOLORS="gxfxcxdxbxegedabagacad"
+export CLICOLOR= LSCOLORS=dxfxcxdxbxegedabagacad
 
 alias ls="ls -G"
 alias clj="lein repl"

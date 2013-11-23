@@ -6,5 +6,8 @@ Bundle "scrooloose/nerdtree"
 Bundle "kien/ctrlp.vim"
 Bundle 'itchyny/lightline.vim'
 
+Bundle "altercation/vim-colors-solarized"
+colorscheme solarized
+
 filetype plugin indent on " required!
 
