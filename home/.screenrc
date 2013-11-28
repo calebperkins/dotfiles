@@ -1,2 +1,8 @@
 # Disable the startup message
 startup_message off
+
+# Enable UTF
+defutf8 on
+
+# Set the shell
+shell -zsh
