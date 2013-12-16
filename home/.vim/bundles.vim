@@ -5,6 +5,7 @@ call vundle#rc()
 Bundle "scrooloose/nerdtree"
 Bundle "kien/ctrlp.vim"
 Bundle 'itchyny/lightline.vim'
+Bundle 'scrooloose/syntastic'
 
 Bundle "altercation/vim-colors-solarized"
 colorscheme solarized
