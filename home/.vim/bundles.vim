@@ -1,15 +1,22 @@
 filetype off " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'vim-scripts/paredit.vim'
-Bundle "scrooloose/nerdtree"
-Bundle "kien/ctrlp.vim"
-Bundle 'itchyny/lightline.vim'
-Bundle 'scrooloose/syntastic'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'vim-scripts/paredit.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'altercation/vim-colors-solarized'
 
-Bundle "altercation/vim-colors-solarized"
-colorscheme solarized
-
+call vundle#end()
 filetype plugin indent on " required!
 
+colorscheme solarized
+
+" Brief help
+" " :PluginList          - list configured plugins
+" " :PluginInstall(!)    - install (update) plugins
+" " :PluginSearch(!) foo - search (or refresh cache first) for foo
+" " :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
