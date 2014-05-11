@@ -1,12 +1,14 @@
 dotfiles
 ========
 
-My configuration for zsh, vim, git, and other programs I use. Compatible with [homesick](https://github.com/technicalpickles/homesick).
+My configuration for zsh, vim, git, and other programs I use.
 
 Quick start
 -----------
 
-1. install homesick
-2. `homesick clone calebperkins/dotfiles`
-3. Initialize Vundle using `$ git submodule update --init` 
-4. Install [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+Install [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized).
+
+    git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+    homesick clone calebperkins/dotfiles
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    vim +PluginInstall +qall
