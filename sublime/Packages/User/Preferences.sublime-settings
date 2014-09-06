@@ -2,12 +2,13 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"remember_open_files": false,
 	"translate_tabs_to_spaces": true,
