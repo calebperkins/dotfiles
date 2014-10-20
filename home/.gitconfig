@@ -13,3 +13,6 @@
   path = .gitconfig.local
 [pull]
   rebase = true
+[amazon]
+  append-cr-url = true
+  pull-request-by-default = true
