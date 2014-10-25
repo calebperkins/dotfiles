@@ -23,5 +23,6 @@ setopt share_history      #Share history across terminals
 setopt inc_append_history  #Immediately append to the history file, not just when a term is killed
 setopt hist_ignore_dups # ignore duplicates
 
-source $HOME/.zsh/git_prompt.zsh
-source $HOME/.homesick/repos/homeshick/homeshick.sh
+. ~/.zsh/git_prompt.zsh
+. ~/.homesick/repos/homeshick/homeshick.sh
+[ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
