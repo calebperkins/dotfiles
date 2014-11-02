@@ -18,5 +18,8 @@
 	pull-request-by-default = true
 [core]
 	pager = less -FMRiX
+	excludesfile = ~/.gitignore_global
 [push]
 	default = simple
+[user]
+	name = Caleb Perkins
