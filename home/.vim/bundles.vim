@@ -15,6 +15,8 @@ filetype plugin indent on " required!
 
 colorscheme solarized
 
+let g:lightline = {'colorscheme': 'solarized_dark',}
+
 " Brief help
 " " :PluginList          - list configured plugins
 " " :PluginInstall(!)    - install (update) plugins
