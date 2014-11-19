@@ -1,15 +1,6 @@
 {
 	"installed_packages":
 	[
-		"AdvancedNewFile",
-		"Better CoffeeScript",
-		"Enhanced Clojure",
-		"Ghetto CoffeeScript",
-		"MarkdownEditing",
-		"Protocol Buffer Syntax",
-		"Rust",
-		"Sass",
-		"SCSS",
 		"Solarized Color Scheme"
 	]
 }
