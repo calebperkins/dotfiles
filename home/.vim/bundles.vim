@@ -5,7 +5,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/paredit.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'altercation/vim-colors-solarized'
