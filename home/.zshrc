@@ -6,8 +6,6 @@ export CLICOLOR= LSCOLORS=dxfxcxdxbxegedabagacad
 
 export PIP_REQUIRE_VIRTUALENV=true
 
-alias ls="ls -G"
-alias clj="lein repl"
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias stt="st ."
 
