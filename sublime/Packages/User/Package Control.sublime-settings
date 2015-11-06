@@ -1,6 +1,14 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Solarized Color Scheme"
+		"AutoPEP8",
+		"MarkdownEditing",
+		"Package Control",
+		"Solarized Color Scheme",
+		"Swift"
 	]
 }
