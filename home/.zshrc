@@ -9,6 +9,8 @@ export PIP_REQUIRE_VIRTUALENV=true
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias stt="st ."
 
+export VISUAL=nvim
+
 ##############################################################################
 ## History Configuration
 ##############################################################################
