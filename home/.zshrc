@@ -6,14 +6,13 @@ export CLICOLOR= LSCOLORS=dxfxcxdxbxegedabagacad
 
 export PIP_REQUIRE_VIRTUALENV=true
 
-alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias stt="st ."
-
 export VISUAL=nvim
 
 ##############################################################################
 ## History Configuration
 ##############################################################################
+bindkey -v
+bindkey '^R' history-incremental-search-backward
 HISTSIZE=5000               #How many lines of history to keep in memory
 HISTFILE=~/.zsh_history     #Where to save history to disk
 SAVEHIST=5000               #Number of history entries to save to disk
