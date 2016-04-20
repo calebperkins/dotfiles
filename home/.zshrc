@@ -23,5 +23,4 @@ setopt inc_append_history  #Immediately append to the history file, not just whe
 setopt hist_ignore_dups # ignore duplicates
 
 . ~/.zsh/git_prompt.zsh
-. ~/.homesick/repos/homeshick/homeshick.sh
 [ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
