@@ -1,5 +1,3 @@
-sublime/Packages/User/Package Control.cache/
-sublime/Packages/User/Package Control.last-run
-sublime/Packages/User/Package Control.system-ca-bundle
-sublime/Packages/User/Package Control.user-ca-bundle
-sublime/Packages/User/Package Control.merged-ca-bundle
+home/.vim/bundle
+home/.vim/plugin
+home/.zsh/local.zsh
