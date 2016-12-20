@@ -22,5 +22,10 @@ setopt share_history      #Share history across terminals
 setopt inc_append_history  #Immediately append to the history file, not just when a term is killed
 setopt hist_ignore_dups # ignore duplicates
 
+function whatport() {
+    lsof -i tcp:"$1"
+}
+
+
 . ~/.zsh/git_prompt.zsh
 [ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
