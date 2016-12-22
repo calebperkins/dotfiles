@@ -10,5 +10,5 @@ Install [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarize
 
     brew install stow
     stow home/
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qall
