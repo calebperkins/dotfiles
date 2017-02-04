@@ -1,4 +1,5 @@
 autoload -U colors && colors
+bindkey -e
 
 # the prompt
 export PS1="%{$fg[red]%}» %{$fg[cyan]%}%1~ %{$reset_color%}"
@@ -11,7 +12,6 @@ export VISUAL=nvim
 ##############################################################################
 ## History Configuration
 ##############################################################################
-bindkey -v
 bindkey '^R' history-incremental-search-backward
 HISTSIZE=5000               #How many lines of history to keep in memory
 HISTFILE=~/.zsh_history     #Where to save history to disk
