@@ -1,9 +1,12 @@
 autoload -U colors && colors
+autoload -U promptinit; promptinit
+prompt pure
+
 bindkey -e
 
-# the prompt
-export PS1="%{$fg[red]%}» %{$fg[cyan]%}%1~ %{$reset_color%}"
-export CLICOLOR= LSCOLORS=dxfxcxdxbxegedabagacad
+alias vim="nvim"
+
+export CLICOLOR= LSCOLORS=exfxcxdxbxegedabagacad
 
 export PIP_REQUIRE_VIRTUALENV=true
 
@@ -26,6 +29,4 @@ function whatport() {
     lsof -i tcp:"$1"
 }
 
-
-. ~/.zsh/git_prompt.zsh
 [ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
