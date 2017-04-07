@@ -17,7 +17,12 @@
 	pager = less -FMRiX
 	excludesfile = ~/.gitignore_global
 [push]
-	default = simple
+	default = current
 [user]
 	name = Caleb Perkins
 	email = calebperkins@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
