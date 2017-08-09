@@ -3,3 +3,4 @@ home/.config/nvim/.netrwhist
 home/.vim/bundle
 home/.vim/plugin
 home/.zsh/local.zsh
+home/.config/configstore/
