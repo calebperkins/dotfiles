@@ -25,8 +25,13 @@ setopt share_history      #Share history across terminals
 setopt inc_append_history  #Immediately append to the history file, not just when a term is killed
 setopt hist_ignore_dups # ignore duplicates
 
+# returns what processes are listening on the provided port
 function whatport() {
     lsof -i tcp:"$1"
+}
+
+function venv() {
+    python3 -m venv ~/.virtualenvs/$1
 }
 
 [ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
