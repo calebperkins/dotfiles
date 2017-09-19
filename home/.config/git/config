@@ -10,12 +10,11 @@
 	aa = add --all
 	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
 [include]
-	path = .gitconfig.local
+	path = ~/.gitconfig.local
 [pull]
 	rebase = true
 [core]
 	pager = less -FMRiX
-	excludesfile = ~/.gitignore_global
 [push]
 	default = current
 [user]
