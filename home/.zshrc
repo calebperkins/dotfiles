@@ -5,6 +5,7 @@ prompt pure
 bindkey -e
 
 alias vim="nvim"
+alias icloud="cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/"
 
 export CLICOLOR= LSCOLORS=exfxcxdxbxegedabagacad
 
