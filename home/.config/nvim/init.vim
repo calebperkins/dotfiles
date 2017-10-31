@@ -23,5 +23,11 @@ Plug 'fishbullet/deoplete-ruby'
 call plug#end()
 
 " LSP support
-let g:LanguageClient_serverCommands = {'python': ['pyls']}
+
+let g:languageClient_serverCommands = {}
+
+if executable('pyls')
+  let g:LanguageClient_serverCommands.python = ['pyls']
+end
+
 let g:LanguageClient_autoStart = 1
