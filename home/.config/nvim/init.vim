@@ -1,6 +1,6 @@
 filetype plugin indent on
 syntax on
-
+setl number
 colorscheme Tomorrow-Night
 
 let g:python3_host_prog=expand('~/.cache/nvim/venv/bin/python3')
