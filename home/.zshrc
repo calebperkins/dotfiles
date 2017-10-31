@@ -31,11 +31,11 @@ function whatport() {
     lsof -i tcp:"$1"
 }
 
-# create a new Python venv and install neovim and lang server support
+# create a new Python venv and install lang server support
 function venv() {
     python3 -m venv ~/.virtualenvs/$1
     source ~/.virtualenvs/$1/bin/activate
-    pip install neovim python-language-server
+    pip install python-language-server
 }
 
 [ -r ~/.zsh/local.zsh ] && . ~/.zsh/local.zsh
