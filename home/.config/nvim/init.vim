@@ -24,7 +24,7 @@ call plug#end()
 
 " LSP support
 
-let g:languageClient_serverCommands = {}
+let g:LanguageClient_serverCommands = {}
 
 if executable('pyls')
   let g:LanguageClient_serverCommands.python = ['pyls']
