@@ -3,6 +3,7 @@
 [color]
 	ui = auto
 [alias]
+	mr = branch --sort=-committerdate
 	co = checkout
 	sigs = log --show-signature
 	st = status
