@@ -3,7 +3,7 @@ syntax on
 setl number
 colorscheme Tomorrow-Night
 
-let g:python3_host_prog=expand('~/.cache/nvim/venv/bin/python3')
+"let g:python3_host_prog=expand('~/.cache/nvim/venv/bin/python3')
 
 " auto-install vim-plug
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -12,14 +12,8 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
 endif
 
 " plugins
+" use PlugInstall, PlugClean, PlugUpdate
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
-Plug 'junegunn/fzf' " a command-line fuzzy finder
-Plug 'Shougo/denite.nvim' " Multi-entry selection UI.
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion integration with deoplete.
-Plug 'roxma/nvim-completion-manager' " Completion integration with nvim-completion-manager.
-Plug 'Shougo/echodoc.vim' " Showing function signature and inline doc.
-Plug 'fishbullet/deoplete-ruby'
 call plug#end()
 
 " LSP support
